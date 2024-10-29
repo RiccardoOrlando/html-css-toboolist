@@ -11,12 +11,12 @@
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    background-color: #FfF8F9;
+    background-color: #F7F8F9;
 }
 
 main{
     width: 800px;
-    background-color: pink;
+    background-color: white;
     margin: auto;
 }
 
@@ -33,6 +33,10 @@ header{
 h1{
     display: inline-block;
     vertical-align: middle;
+}
+
+li{
+    margin-bottom: 20px;
 }
 
 .logo{
