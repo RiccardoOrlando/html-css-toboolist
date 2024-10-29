@@ -11,7 +11,13 @@
 body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-style: normal;
+    background-color: #FfF8F9;
+}
+
+main{
+    width: 800px;
+    background-color: pink;
+    margin: auto;
 }
 
 
@@ -31,4 +37,76 @@ h1{
 
 .logo{
     vertical-align: middle;
+}
+
+/* ------------------------
+    MAIN
+------------------------*/
+
+.btn{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #14AAF5;
+    color: white;
+}
+
+.btn1{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: white;
+    color: #C4CBD0;
+}
+
+.marginbtn{
+    margin-bottom: 40px;
+}
+
+ul{
+    list-style: none;
+}
+
+.newtask{
+    color: #434851;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.container{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.tag-blue{
+    background-color: #14AAF5;
+}
+
+.tag-purple{
+    background-color: #ab5de6;
+}
+
+.tag-lightgreen{
+    background-color: #2CC6AB;
+}
+
+.tag-orange{
+    background-color: #FF9B00;
+}
+
+.tag-fuxia{
+    background-color: #EC4A9D;
+}
+
+.tag-lime{
+    background-attachment: #A3D116;
 }
